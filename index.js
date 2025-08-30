@@ -1,32 +1,33 @@
-let count = 0;
+let homeCount = 0;
+let guestCount = 0;
 let scoreNow = document.getElementById("score");
 let scoreNow2 = document.getElementById("score-2");
 
 function add1_2() {
-  count += 1;
-  scoreNow2.textContent = count;
+  guestCount += 1;
+  scoreNow2.textContent = guestCount;
 }
 
 function add2_2() {
-  count += 2;
-  scoreNow2.textContent = count;
+  guestCount += 2;
+  scoreNow2.textContent = guestCount;
 }
 
 function add3_2() {
-  count += 3;
-  scoreNow2.textContent = count;
+  guestCount += 3;
+  scoreNow2.textContent = guestCount;
 }
 function add1() {
-  count += 1;
-  scoreNow.textContent = count;
+  homeCount += 1;
+  scoreNow.textContent = homeCount;
 }
 
 function add2() {
-  count += 2;
-  scoreNow.textContent = count;
+  homeCount += 2;
+  scoreNow.textContent = homeCount;
 }
 
 function add3() {
-  count += 3;
-  scoreNow.textContent = count;
+  homeCount += 3;
+  scoreNow.textContent = homeCount;
 }
