@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    color: #eeeeee; 
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.container div {
+    flex: 1; 
+    margin: 10px; 
+    min-width: 200px; 
+}
+
+
+
+button {
+    color: #9AABD8;
+    background-color: #1B244A;
+    border: 1px solid #9AABD8;
+    margin-top: 10px;
+    
+}
+
+.scorespc {
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+    padding: 15px;
+    font-size: 50px;
+    margin:auto;
+    flex-grow: 1;
+    min-width: 50px;   
+}
+    
